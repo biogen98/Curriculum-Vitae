@@ -31,7 +31,7 @@
             %pdfkeywords={}]{hyperref}
 \usepackage{hyperref}
 
-\definecolor{mygray}{gray}{0.95}
+\definecolor{mygray}{rgb}{0.0, 1.0, 1.0}
 \definecolor{lightdark}{gray}{0.55}
 \definecolor{dark}{gray}{0.3}
 \definecolor{skillbg}{gray}{0.7}
@@ -138,145 +138,108 @@
 \end{tikzpicture}
 
 % Side Bar
-
 \begin{textblock}{58.5}(6,7.7)
+    \begin{figure}
+        \centering
+        \includegraphics[width = 4cm]{profile_square_rounded.png}
+    \end{figure}
     \name{Jan}{Stevens}
-
-    %\tagline{Student \& Developer}
-
+    \hspace{0.6cm}
+    \begin{tabular}[c]{lr}
+        \contactline{Birthdate}{16-04-1998}\\
+        \contactline{Birthplace}{Nijmegen}\\
+        \contactline{Nationality}{Dutch}
+    \end{tabular}
+    
     \section{About me}
 
     \color{dark}
 
-    Jan is a college student at San Jos\'{e} State University majoring in computer science. 
-    He is a passionate and self-taught programmer with experience in both front-end and back-end development.
-     He is always thrilled to learn new technologies and use them into work.
-
+    Hi, my name is Jan. I am a graduate student at the KU Leuven majoring in Theoretical physics. 
+    My main passion is computational physics, with a focus on the theoretical analysis of soft-matter simulations.\\
+    Other academic interests are computer science related, examples: GNU / Linux, Machine learning and Data Science.\\
     \section{Contacts}
 
     \renewcommand{\arraystretch}{1.1}
 
     \begin{tabular}{rl}
-        \contactline{Phone}{(408) 618-9708} \\
-        \contactline{Email}{i@zr.is} \\
-        \contactline{Website}{\href{https://zr.is}{zr.is}} \\
-        \contactline{GitHub}{\href{https://github.com/fanzeyi}{@fanzeyi}} \\
-        \contactline{LinkedIn}{\href{https://linkedin.com/in/fanzeyi}{/in/fanzeyi}}
+        \contactline{Phone}{(+32) 491 04 16 20} \\
+        \contactline{Email}{jan.stevens2@Kuleuven.be} \\
+        \contactline{Website}{\href{https://www.jstevens.be/}{jstevens.be}} \\
+        \contactline{GitHub}{\href{https://github.com/biogen98}{@biogen98}} \\
+        \contactline{LinkedIn}{\href{https://www.linkedin.com/in/jan-adriaan-stevens}{/in/jan-adriaan-stevens}}
     \end{tabular}
+
 
     \section{Skills}
 
-    \skill{Python}{4.5}
+    \skill{Mathematics}{4}
 
-    \skill{JavaScript}{4}
+    \skill{Python}{4}
+    
+    \skill{Data analysis}{4}
+    
+    \skill{\TeX}{3.5}
 
-    \skill{Java}{4}
-
-    \skill{Go}{4}
-
-    \skill{C/C++}{4}
-
-    \skill{Git}{4}
-
-    \skill{\TeX}{4}
-
-    \skill{Scala}{4}
-
-    \skill{Linux}{3}
-
-    \skill{Nginx}{3}
-
-    \skill{VimL}{3}
-
-    \skill{PHP}{3}
-
-    \skill{Ruby}{2.5}
-
-    \skill{Haskell}{2}
+    \skill{Linux}{3.5}
+    
+    \skill{R}{3}
+    
+    \skill{Git}{3}
 
 \end{textblock}
 
 % Main
 
 \vspace{-25pt}  % Change this value to adjust the position of the right
+
 \section{Education}
-
-\block{San Jos\'{e} State University}
-{B.S. Computer Science | GPA: 3.7 | Major GPA: 3.9 | Excepted May 2018}
+\block{High School: Sint-Hubertus College Pelt}{Sciences and Mathematics (7 hours) | 2010 - 2016}{
+\hfill
+}
+\newline
+\block{Bachelor: KU Leuven}
+{B.Sc. Physics | minor: Mathematics | 2016  - 2019}
 {
-    Relevant Coursework: Computer Architecture; Object-Oriented Design; Operating Systems; Programming Concepts and Paradigms.
+    Relevant Coursework: Statistical Mechanic; Introduction to Quantum Mechanics; Particle Physics;
 }
-
-\section{Work Experience}
-
-\block{Front-end Engineer}
-{Beary Innovation | Shenzhen, China (remote) | April 2014 - July 2014}
+\hfill
+\block{Master: KU Leuven}
+{M.Sc. Theoretical Physics | Research Option: A.I. | 2019 - current}
 {
-    \begin{itemize}[-]
-        \item Joined Beary Innovation as their first employee.
-        \item Responsible for the entire front-end development.
-        \item Built their front-end skeleton with \hl{AngularJS and CoffeeScript}
+    Relevant Coursework: Computational Physics; Mathematical Physics; Physical Modelling of Complex Systems
+}
+
+\newline
+
+\section{Hobbies}
+\begin{enumerate}
+    \item Squash
+    \item Philosophy
+    \item 
+\end{enumerate}
+\section{Courses \& Certificates}
+
+\block{Peer Assisted Learning Tutor}{Course: Introduction to Quantum Mechanics | Spring semester 2019}{}
+
+\hfill
+
+\section{Relevant}
+
+\block{Student Council KU Leuven}{member from 2017 - current}{
+    \begin{itemize}
+        \item POC physics
+        \item OOR
+        \item OWG
     \end{itemize}
 }
 
-\vspace{.5em}
+\hfill
 
-\block{Back-end Engineering Intern}
-{Douban | Beijing, China | April 2013 - August 2013}
-{
-
-\begin{itemize}[-]
-    \item Douban is an interest-based online community founded in 2003. It is the 10th largest website in China and it was invested by Sequoia Capital.
-    \item Joined Douban as their youngest intern (during high school year).
-    \item Responsible for developing an internal source code management system.
-    \item Designed, and developed a REST service to \hl{encapsulate low-level git operations} with \hl{Python, Flask, and libgit2/pygit2.}
-    \item Greatly sped up the performance of their source code managment system relying on git operations.
-\end{itemize}
+\block{Volunteer at Sint Oda}{Summer camp 2017}{
+    Sint Oda is service centre For children and adults with severe multiple physical disabilities and a moderate to severe mental disability. During the course of the camp we helped care and animate the residents.
 }
-
-\section{Projects}
-
-\block{Torchic}{}{
-    \begin{itemize}[-]
-        \item The project is built for Google's CodeU program.
-        \item Designed and built a \hl{high-performance crawler in Go} with the ability to \hl{scale and disaster recovery}. It can crawl 400 pages per minute with single process.
-        \item Used Redis as index database and MySQL as document database.
-        \item \hl{Implemented BM25 as ranking algorithm.}
-        \item Designed a responsive web page to serve search request for both mobile and desktop.
-        \item The project is awarded Engineers' Choice judged by Googlers.
-    \end{itemize}
-}
-
-\vspace{.5em}
-
-\block{Kaname}{}{
-    \begin{itemize}[-]
-        \item Kaname is a desktop client for DoubanFM providing music streaming service.
-        \item Built this project to explore Chrome's packaged appication API.
-        \item Gained more than 10,000 users and an average 4.5 rating on Chrome Web Store.
-        \item Built with \hl{CoffeeScript and UnderscoreJS.}
-    \end{itemize}
-}
-
-\vspace{.5em}
-
-\block{Vulpix}{}{
-    \begin{itemize}[-]
-        \item Vulpix is an online algorithm practicing system.
-        \item Accpets C, C++ and Pascal program and the program will compile and run in a sandbox environment.
-        \item Can effectively give feedbacks on time and memory performance of submitted program.
-        \item Built with Python and Tornado as web framework.
-    \end{itemize}
-}
-
 \section{Awards}
 
-\ralewaysb Engineers' Choice \raleway at CodeU, Google\hfill Aug 2016
-
-\ralewaysb 2nd Prize \raleway at Happy Day Hackathon, Douban\hfill July 2013
-
-\ralewaysb The Most Popular and Creative Prize \raleway at Green Life Hackathon, Baidu\hfill July 2013
-
-\ralewaysb National 2nd Prize \raleway at National Olympiad Informatics in Provinces, CCF\hfill Dec 2012
-
+\ralewaysb Second Price \raleway junior olympiade natuurwetenschappen\hfill may 2014
 \end{document}
