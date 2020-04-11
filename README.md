@@ -1,9 +1,10 @@
 # cv
 
-This is the  cv template I designed for myself. It is a modified version of [fanzeyi's](https://github.com/fanzeyi/cv) template. Feel free to use it a you please.
+This is the  cv template I designed for myself. It is a modified version of [fanzeyi's](https://github.com/fanzeyi/cv) template. 
+Feel free to use it a you please.
 
 You can preview it [here](./cv.pdf).
-
+--jan
 ## Font
 
 This template uses [Raleway](https://github.com/impallari/Raleway) as main font.
