@@ -22,6 +22,8 @@ They are also open source!
 Use latexmk:
 
     latexmk -xelatex
+> Command line compiling is currently broken. It is however possible to use overleaf or another latex editor to compile it with Xelatex.
+
     
 ## License
 
