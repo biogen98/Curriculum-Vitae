@@ -1,4 +1,9 @@
-# cv
+<div align="center">
+    <h1>Curriculum-Vitae</h1>
+    <blockquote>
+        <p>Jan Stevens </p>
+    </blockquote>
+</div>
 
 This is the  cv template I designed for myself. It is a modified version of [fanzeyi's](https://github.com/fanzeyi/cv) template. \
 Feel free to use it a you please.
